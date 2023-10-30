@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: blue;
+}
+.second_part_class {
+  color: yellow;
+}
+#second_part_id {
+  color: red;
+}
+.green {
+  color: green;
+}
+.second_part_box p {
+  color: purple;
+}
+.second_part_box p + p {
+  color: lightgreen;
+}
+.second_part_box ~ p {
+  color: coral;
+}
+p[name="value"] {
+  color: lightblue;
+}
+#second_id[name="some"] {
+  color: lightseagreen;
+}
+section div p {
+  color: violet;
+}
