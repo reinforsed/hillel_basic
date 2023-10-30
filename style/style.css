@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+.card {
+  display: inline-block;
+  margin: 30px 30px 0 0;
+  width: 340px;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px grey;
+}
+.card img {
+  max-width: 100%;
+}
+.card_header {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.card_text {
+  margin-top: 5px;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+  text-align: center;
+}
