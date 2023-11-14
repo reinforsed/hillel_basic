@@ -20,7 +20,7 @@ html {
   background-color: var(--backgorund-color);
 }
 .navigation {
-  padding: 80px 0 80px 0;
+  padding-top: 80px;
 }
 .navigation .navigation-link {
   text-decoration: none;
@@ -28,6 +28,7 @@ html {
   text-transform: uppercase;
   margin-right: 42px;
   font-size: 16px;
+  transition: 0.25s;
 }
 .navigation .navigation-link:hover {
   color: var(--basic-color);
@@ -38,28 +39,99 @@ html {
 }
 .main-title {
   font-family: Roboto-medium;
-  padding-top: 70px;
+  padding-top: 151px;
   font-size: 48px;
 }
 .main-descr {
   max-width: 540px;
-  margin-top: 60px;
+  padding-top: 60px;
   color: #727272;
+  line-height: 164%;
+}
+.button {
+  padding: 65px 0 140px 0;
 }
 .main-button {
   display: block;
   width: 225px;
   height: 65px;
-  margin: 65px 0 141px 0;
   background-color: var(--basic-color);
+  text-decoration: none;
+  text-align: center;
   color: #eeeff1;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 60px;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.25s linear;
 }
-.main-button a {
-  text-decoration: none;
-  color: #ffffff;
-}
+
 .main-button:hover {
   background-color: var(--backgorund-color);
+  color: var(--basic-color);
+}
+/* --------------------- About section ----------------------- */
+.page-subheader {
+  font-family: Roboto-medium;
+  padding-top: 112px;
+  font-size: 32px;
+  text-align: center;
+}
+.page-subdescr {
+  display: block;
+  margin: 0 auto;
+  max-width: 540px;
+  text-align: center;
+  padding: 50px 0 100px 0;
+  font-size: 16px;
+  color: #727272;
+  line-height: 164%;
+}
+/* -------------------------Numbers -------------------------- */
+.numbers {
+  background-color: var(--basic-color);
+}
+.numbers-wrapper {
+  padding: 100px 0 100px 0;
+}
+.numbers-item {
+  display: inline-block;
+  padding-left: 49px;
+}
+.numbers-item-text {
+  float: right;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+.numbers-item-title {
+  font-family: Roboto-medium;
+  font-size: 21px;
+  color: var(--backgorund-color);
+}
+.numbers-item-descr {
+  font-size: 16px;
+  color: var(--backgorund-color);
+}
+/* ------------------------video--------------------------- */
+.video .page-subdescr {
+  padding-bottom: 0;
+}
+.video iframe {
+  padding: 57px 0 100px 0;
+}
+/* ------------------------footer------------------------- */
+.footer {
+  background-color: var(--basic-color);
+}
+.autor-name {
+  font-family: Roboto-medium;
+  padding-top: 50px;
+  color: var(--backgorund-color);
+  font-size: 21px;
+}
+.copyright {
+  padding: 20px 0 50px 0;
+  color: var(--backgorund-color);
+  font-size: 13px;
 }
