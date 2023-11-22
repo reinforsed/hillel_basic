@@ -1,5 +1,207 @@
+:root {
+  --main-color: #81a36b;
+  --primary-color: #d8d8d6;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  background-color: var(--primary-color);
+  color: #161616;
+  font-family: Roboto-regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+/* -------------------------Navigation---------------- */
+.header-nav {
+  background-color: var(--main-color);
+  min-height: 80px;
+  padding: 20px 0 20px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #161616;
+  font-family: Vetrino-regular;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.nav-menu-item {
+  align-items: center;
+  text-decoration: none;
+  color: #161616;
+  transition: 0.25s linear;
+}
+.nav-menu-item:hover {
+  color: var(--primary-color);
+}
+/* ----------------------------Main-------------------------- */
+.main {
+  min-height: 670px;
+}
+.main-wrapper {
+  display: inline-block;
+}
+.main-title {
+  margin-top: 178px;
+  display: block;
+  color: #161616;
+  font-family: Vetrino-regular;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-descr {
+  display: block;
+  width: 540px;
+  height: 87px;
+  margin-top: 60px;
+}
+.main-btn {
+  display: inline-block;
+  width: 190px;
+  height: 60px;
+  margin-top: 40px;
+  border: 1px solid #81a36b;
+  color: #161616;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3;
+  transition: 0.2s linear;
+}
+.btn-mr-65 {
+  margin-left: 65px;
+}
+.main-btn:hover {
+  background-color: var(--main-color);
+  color: var(--primary-color);
+}
+.main-img {
+  float: right;
+  max-width: 540px;
+  max-height: 670px;
+}
+/* ----------------------------About Section---------------------- */
+.about {
+  padding: 120px 0;
+}
+
+.second-title {
+  color: #000;
+  font-family: Vetrino-regular;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.about .main-descr {
+  margin: 60px auto 0;
+  text-align: center;
+}
+/* -------------------------Advantages------------------------------ */
+.advantages {
+  background-color: var(--main-color);
+  padding: 80px 0;
+}
+.advantages-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages-item-ico {
+  display: block;
+  margin: 0 auto;
+}
+.advantages-item-descr {
+  padding-top: 20px;
+  color: #161616;
+  font-family: Montserrat-regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* --------------------------Work------------------------------------ */
+.work {
+  padding-top: 120px;
+}
+.work-wrapper {
+  display: flex;
+}
+.work-desrc .second-title {
+  padding-top: 178px;
+  text-align: center;
+}
+.work-desrc .main-descr {
+  margin-top: 60px;
+  margin-left: 30px;
+  text-align: center;
+}
+.work-img {
+  max-width: 539px;
+  height: 100%;
+}
+/* -----------------------Our-works----------------------------------- */
+.our-works {
+  margin: 120px 0 120px;
+}
+.our-works-wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-works-card {
+  padding: 10px;
+  background-color: var(--main-color);
+}
+.our-works-descr {
+  padding: 20px;
+  display: block;
+  color: #161616;
+  text-align: center; /* 29.531px */
+}
+/* ----------------------footer------------------------------------ */
+.footer {
+  background-color: var(--main-color);
+  padding: 60px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.fs24 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.footer-contacts a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #161616;
+}
+.footer-social-links {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-year {
+  text-align: center;
+  margin-top: 40px;
 }
