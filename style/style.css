@@ -10,7 +10,7 @@
 html {
   background: #fff;
   color: #333;
-  font-family: Raleway-regular;
+  font-family: Relaway-regular;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -37,8 +37,21 @@ a {
 .fs-14 {
   font-size: 14px;
 }
+.fs-28 {
+  font-size: 28px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-38 {
+  font-size: 38px;
+}
 
 /* -------------------------Navbar----------------------- */
+.nav {
+  border-bottom: 1px solid rgba(83, 109, 122, 0.29);
+  box-shadow: 0px 1px 8px 0px rgba(83, 109, 122, 0.29);
+}
 .nav_wrapper {
   display: flex;
   padding: 15px 0px;
@@ -49,9 +62,6 @@ a {
 .items_wrapper {
   display: flex;
   align-items: center;
-}
-.nav_item_icon {
-  display: inline-block;
 }
 .nav_item {
   display: flex;
@@ -70,4 +80,98 @@ a {
   border-radius: 5px;
   background-color: #fead1c;
   box-shadow: 5px 5px 0px 0px #fead1c;
+}
+
+/* -------------------------------Header------------------------ */
+.header_wrapper {
+  display: flex;
+  gap: 50px;
+  border-radius: 10px;
+  background: #e3ebf1;
+  margin-top: 60px;
+  padding: 50px;
+}
+.descr_intro {
+  margin-top: 14px;
+  color: var(--green);
+  font-weight: 400;
+  line-height: 24px;
+}
+.descr_title {
+  margin-top: 8px;
+}
+.descr_text {
+  margin-top: 22px;
+}
+.descr_text span {
+  font-weight: bold;
+}
+.btn {
+  margin-top: 25px;
+  width: 161px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: var(--green);
+  color: #fff;
+}
+/* ------------------------------BLOG---------------------- */
+.blog {
+  margin-top: 77px;
+}
+.blog_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 33px;
+  gap: 40px;
+}
+.blog_main_card_descr {
+  max-width: 546px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.blog_cards {
+  display: flex;
+  flex-direction: column;
+}
+.blog_cards_item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.blog_cards_descr {
+  max-width: 256px;
+  align-self: center;
+  margin-left: 15px;
+}
+.more {
+  display: flex;
+  margin-top: 74px;
+  align-items: center;
+}
+.more_arrow {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+/* -------------------------------Lawncare------------------- */
+.lawncare_wrapper {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px 30px 30px;
+  margin-top: 100px;
+  background: #e3ebf1 url(../img/section_background.png) no-repeat fixed center;
+}
+.lawncare_item {
+  display: flex;
+}
+.lawncare_item_img {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+.lawncare_wrapper .btn {
+  margin-top: 0;
+  max-width: 111px;
 }
