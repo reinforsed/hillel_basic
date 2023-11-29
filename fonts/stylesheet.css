@@ -1,12 +1,15 @@
 @font-face {
   font-family: Bitter-regular;
-  src: url(/fonts/Bitter-Regular.woff);
+  src: url(Bitter-Regular.woff);
+  src: url(Bitter-Regular.woff2);
 }
 @font-face {
   font-family: Relaway-regular;
-  src: url(/fonts/Raleway-Regular.woff);
+  src: url(Raleway-Regular.woff);
+  src: url(Raleway-Regular.woff2);
 }
 @font-face {
   font-family: Relaway-bold;
-  src: url(/fonts/Raleway-Bold.woff);
+  src: url(Raleway-Bold.woff);
+  src: url(Raleway-Bold.woff2);
 }
