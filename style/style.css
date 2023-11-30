@@ -122,3 +122,22 @@ a {
   background-color: var(--black-color);
   color: var(--white-color);
 }
+/* ---------------------ROTADED------------------------ */
+.rotated {
+  display: block;
+  margin-top: 111px;
+  padding: 28px 0px 14px 40px;
+  width: 100vw;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transform: rotate(-4.93deg);
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.rotated_item {
+  display: inline-block;
+}
+.rotated .second_star {
+  display: inline-block;
+  margin: 0px 65px 0px 18px;
+}
