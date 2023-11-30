@@ -17,6 +17,12 @@ html {
   font-weight: 400;
   line-height: 32px; /* 177.778% */
 }
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
 .fs-12 {
   font-size: 12px;
   line-height: 16px;
@@ -75,10 +81,44 @@ a {
 .menu_item {
   border-bottom: 1px solid black;
 }
-.nav_wrapper .button {
+
+.nav_wrapper .button:hover {
   background-color: var(--white-color);
 }
-.nav_wrapper .button:hover {
-  background-color: var(--orange-color);
-}
 /* -------------------HEADER--------------------- */
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header_info {
+  padding: 104px 0px;
+  max-width: 674px;
+}
+.main_star {
+  margin-left: 12px;
+}
+.header_img {
+  max-width: 562px;
+  height: 100%;
+}
+.header_descr {
+  margin-top: 36px;
+}
+.second_star {
+  margin: 0px 16px;
+}
+.header_buttons {
+  margin-top: 40px;
+  transition: all 0.3s;
+}
+.header_buttons .button {
+  padding: 13px 33px;
+}
+.header_buttons .button:first-child {
+  border-right: none;
+  margin-right: -4px;
+}
+.header_buttons .button:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
