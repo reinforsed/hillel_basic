@@ -1,5 +1,144 @@
+:root {
+  --green: #153416;
+  --grey: #929191;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Roboto;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-image: url(/img/main-backgroung.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.center {
+  margin: 0 auto;
+}
+#bg-inherit {
+  background-color: inherit;
+}
+.container {
+  min-width: 500px;
+  background: rgba(233, 233, 233, 0.25);
+  backdrop-filter: blur(5px);
+  padding: 60px 80px 20px 80px;
+  height: 100vh;
+}
+.form_wrapper {
+}
+.checkin_wrapper {
+  border: 1px solid var(--green);
+  border-radius: 30px;
+}
+.checkin_links {
+  display: inline-block;
+  width: 168px;
+  height: 32px;
+  margin: 1px;
+  background-color: var(--green);
+  border-radius: 50px;
+  line-height: 2.6;
+}
+
+.enter {
+  margin-top: 75px;
+  font-size: 30px;
+}
+.main_login {
+  margin-top: 29px;
+}
+.field {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background: #929191;
+  border: none;
+  color: #fff;
+  padding: 15px 0px 15px 27px;
+}
+.field:focus-visible {
+  outline: none;
+}
+::placeholder {
+  color: #fff;
+}
+.second_lable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second_lable input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  float: left;
+}
+.checkbox {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid #d9d9d9;
+  background-color: inherit;
+  margin-right: 10px;
+  transform: translateY(2px);
+}
+.second_lable input[type="checkbox"]:checked + .checkbox {
+  background-color: #153416;
+  background-image: url(/img/icons/chebox.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.forget_pas {
+  display: inline-block;
+  text-decoration: underline;
+  color: var(--green);
+}
+.btn {
+  display: block;
+  margin-top: 30px;
+  border-radius: 30px;
+  background: #153416;
+  width: 100%;
+  border: none;
+  padding: 15px 0px 15px 0px;
+  color: #fff;
+}
+.sub_reg {
+  margin-top: 40px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.sub_reg p {
+  color: var(--green);
+}
+.sub_reg a {
+  text-decoration: underline;
+}
+.social_enter {
+  margin-top: 30px;
+  color: var(--green);
+}
+.social_links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
