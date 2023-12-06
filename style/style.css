@@ -39,8 +39,7 @@ a {
   padding: 60px 80px 20px 80px;
   height: 100vh;
 }
-.form_wrapper {
-}
+
 .checkin_wrapper {
   border: 1px solid var(--green);
   border-radius: 30px;
