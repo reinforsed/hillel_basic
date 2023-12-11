@@ -17,6 +17,10 @@
 }
 .nav_menu_item {
   margin-left: 51px;
+  transition: 0.2s all;
+}
+.nav_menu_item:hover {
+  border-bottom: 1px solid #ff6336;
 }
 .nav_login {
   display: flex;
