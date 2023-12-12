@@ -2,6 +2,8 @@
 @import "header.scss";
 @import "companies.scss";
 @import "blocks.scss";
+@import "localize.scss";
+@import "boost.scss";
 
 $base-color: #ff6336;
 $primary-color: #fff8e4;
@@ -56,6 +58,9 @@ a {
   font-weight: 600;
   line-height: 20px; /* 133.333% */
 }
+span {
+  text-decoration: underline;
+}
 .fs_12 {
   font-size: 12px;
 }
@@ -70,7 +75,6 @@ a {
 }
 .fs-20 {
   font-size: 20px;
-  font-weight: 600;
 }
 .fs-25 {
   font-size: 25px;

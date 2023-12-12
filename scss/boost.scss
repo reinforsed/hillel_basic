@@ -1,0 +1,25 @@
+.boost {
+  &_title {
+    margin-top: 154px;
+  }
+  &_wrapper {
+    margin-top: 75px;
+    display: flex;
+    gap: 31px;
+    &_item {
+      width: 439.984px;
+      height: 609px;
+      &_descr {
+        max-width: 409px;
+        margin-top: 34px;
+      }
+      &_img {
+        &_wrapper {
+          display: flex;
+          height: 300px;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
