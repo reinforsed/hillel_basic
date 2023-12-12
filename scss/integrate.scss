@@ -1,0 +1,31 @@
+.integrate {
+  &_title {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 790px;
+    margin-top: 169px;
+  }
+  &_descr {
+    display: block;
+    margin: 0 auto;
+    max-width: 540px;
+    text-align: center;
+    margin-top: 2px;
+  }
+  &_img {
+    display: block;
+    margin: 0 auto;
+    width: 1023px;
+    height: 445px;
+    margin-top: 25px;
+  }
+}
+.integrate .btn {
+  display: block;
+  width: 193px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 32px;
+  line-height: 60px;
+}
