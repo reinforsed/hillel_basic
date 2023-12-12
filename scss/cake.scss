@@ -1,0 +1,38 @@
+.cake {
+  padding: 89px 0px 84px 0px;
+  background-color: #dabc98;
+}
+.cake_wrapper {
+  display: flex;
+  justify-content: space-between;
+  &_img {
+    width: 176px;
+    height: 154px;
+  }
+  &_dscr {
+    max-width: 461px;
+    line-height: 50px;
+  }
+}
+.cake_descr_cover {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+.cover_stars {
+  margin-top: 20px;
+  &_img {
+    height: 20px;
+  }
+}
+.cover_item_descr {
+  margin-top: 14px;
+}
+.cake_wrapper_cover {
+  display: flex;
+  border-left: 1px solid #000;
+  width: 481px;
+  height: 168px;
+  padding: 30px 62px 23px 71px;
+  gap: 70px;
+}

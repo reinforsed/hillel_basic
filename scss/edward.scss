@@ -1,0 +1,23 @@
+.edward {
+  margin-top: 187px;
+  padding: 53px 0px 105px 0px;
+  background-color: #c9e8f2;
+
+  &_wrapper {
+    display: flex;
+    gap: 59.3px;
+    &_cover {
+      &_init {
+        margin-top: 21px;
+      }
+      &_logo {
+        margin-top: 7px;
+      }
+    }
+    &_img {
+      width: 310px;
+      height: 310px;
+      flex-shrink: 0;
+    }
+  }
+}
