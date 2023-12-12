@@ -1,0 +1,79 @@
+.footer {
+  &_wrapper {
+    display: flex;
+    gap: 140px;
+    margin-bottom: 95px;
+    margin-top: 92px;
+  }
+}
+.wrapper_item {
+  &_header {
+    font-size: 40px;
+  }
+  &_img {
+    width: 300px;
+    height: 300px;
+    margin-top: 28px;
+  }
+  &_logo {
+    display: block;
+    width: 80px;
+    height: 32px;
+    margin-top: 31px;
+  }
+  &_descr {
+    width: 290px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  &_link {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+.wrapper_items {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  &_element {
+    width: 187px;
+    &_title {
+      display: block;
+    }
+    &_link {
+      display: inline-block;
+      font-size: 15px;
+      margin-top: 15px;
+    }
+    &_link:nth-child(1n) {
+      margin-top: 21px;
+    }
+  }
+}
+.wrapper_item + .wrapper_item {
+  min-width: 850px;
+}
+.bottom {
+  padding: 53px 0px;
+  display: flex;
+  justify-content: space-between;
+  &_item {
+    &_descr {
+      display: inline-block;
+      font-size: 12px;
+      width: 300px;
+      line-height: 15px;
+      margin-left: 14px;
+    }
+  }
+}
+.img_bootom_logo {
+  width: 90px;
+  height: 21px;
+}
+.bottom_item_rights {
+  display: block;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 76px;
+}
