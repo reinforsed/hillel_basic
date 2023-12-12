@@ -1,11 +1,11 @@
 @font-face {
   font-family: GraphikLCG-regular;
-  src: url(/fonts/GraphikLCG-Regular.woff);
-  src: url(/fonts/GraphikLCG-Regular.woff2);
+  src: url(GraphikLCG-Regular);
+  src: url(GraphikLCG-Regular.woff2);
 }
 
 @font-face {
   font-family: GraphikLCG-semibold;
-  src: url(/fonts/GraphikLCG-Semibold.woff);
-  src: url(/fonts/GraphikLCG-Semibold.woff2);
+  src: url(GraphikLCG-Semibold.woff);
+  src: url(GraphikLCG-Semibold.woff2);
 }
