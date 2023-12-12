@@ -1,0 +1,30 @@
+.blocks_wrapper {
+  padding: 90px 0px 150px 0px;
+}
+.blocks_item {
+  display: flex;
+  justify-content: space-between;
+  &_descr_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+  }
+  .blocks_item_descr {
+    margin-top: 30px;
+  }
+  .blocks_item_link {
+    margin-top: 30px;
+  }
+
+  &_img {
+    max-width: 632px;
+  }
+}
+.blocks_item:nth-child(3n) {
+  margin-top: 250px;
+}
+.blocks_item:nth-child(2n) {
+  flex-direction: row-reverse;
+  margin-top: 250px;
+}

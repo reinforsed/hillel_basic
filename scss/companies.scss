@@ -1,0 +1,15 @@
+.companies {
+  margin-top: 180px;
+  background-color: #ff6336;
+  padding: 100px 20px;
+  &_title {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 720px;
+  }
+  &_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
+}

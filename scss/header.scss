@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+}
+.header_wrapper {
+  display: flex;
+  margin-top: 115px;
+}
+.header_descr_wrapper {
+  display: inline-block;
+  max-width: 540px;
+}
+
+.header_descr {
+  margin-top: 51px;
+  max-width: 470px;
+}
+
+.header_img {
+  display: inline-block;
+  max-width: 740px;
+}
+.header_descr_wrapper .btn {
+  margin-top: 50px;
+  width: 160px;
+  height: 60px;
+  line-height: 60px;
+}
+.header_sub-descr {
+  margin-top: 25px;
+}
