@@ -1,0 +1,65 @@
+.header {
+  padding: 50px 60px 0px 60px;
+  &_wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    &_logo {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      display: flex;
+      gap: 4px;
+    }
+    &_contacts {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 6px;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    &_nav {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      margin-top: 16px;
+      font-family: Montserrat-Bold;
+    }
+  }
+}
+.logo_box > img {
+  display: block;
+}
+.logo {
+  width: 130px;
+  height: 46.499px;
+  margin-bottom: 6.5px;
+}
+.header_slash {
+  width: 21px;
+  height: 47px;
+}
+.page_name {
+  display: block;
+  font-size: 30px;
+  color: $main-color;
+  font-family: Montserrat-Regular;
+  cursor: pointer;
+  height: max-content;
+  line-height: 48px;
+}
+.header_str {
+  color: $grey-text;
+}
+.nav_item {
+  font-family: Montserrat-Bold;
+}
+.header_tel {
+  font-family: Montserrat-Bold;
+  color: $grey-text;
+}
+img.header_facebook:hover path {
+  fill: $accent;
+}

@@ -1,0 +1,1 @@
+.header{padding:50px 60px 0px 60px}.header_wrapper{display:grid;grid-template-rows:1fr 1fr;grid-template-columns:1fr 1fr}.header_wrapper_logo{grid-row-start:1;grid-row-end:3;display:-webkit-box;display:-ms-flexbox;display:flex;gap:4px}.logo{width:130px;height:46.499px}.header_slash{width:21px;height:47px}.page_name{font-size:30px}/*# sourceMappingURL=header.min.css.map */

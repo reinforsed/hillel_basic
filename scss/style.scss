@@ -9,6 +9,7 @@ $grey-big: #f5f5fa;
 $grey-big-alt: #ededf7;
 $grey-text: #b3b3ba;
 $grey-separator: #e6e6f0;
+@import "header.scss";
 
 h1,
 h2,
@@ -60,4 +61,8 @@ a {
 }
 a:hover {
   color: #f0145a;
+}
+.dot {
+  width: 6px;
+  height: 6px;
 }
