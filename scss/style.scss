@@ -1,0 +1,63 @@
+$main-color: #323264;
+$main-alt: #46466e;
+$main-soft: #686887;
+$accent: #f0145a;
+$active: #24a3ff;
+$active-hover: #0085ff;
+$active-active: #006ccf;
+$grey-big: #f5f5fa;
+$grey-big-alt: #ededf7;
+$grey-text: #b3b3ba;
+$grey-separator: #e6e6f0;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Montserrat-Bold;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 14px;
+}
+p {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+ul {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+ol {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+a {
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #24a3ff;
+}
+a:hover {
+  color: #f0145a;
+}
