@@ -60,6 +60,38 @@
   font-family: Montserrat-Bold;
   color: $grey-text;
 }
-.facebook_header path:hover {
+.facebook_header {
+  display: block;
+}
+.facebook_header:hover path {
   fill: $accent;
+}
+.header_lang {
+  gap: 14px;
+  position: relative;
+  align-items: center;
+}
+.header_lang input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transform: translateX(27px);
+}
+.lang_switcher_item {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  line-height: 2px;
+  color: $grey-text;
+  cursor: pointer;
+}
+.header_lang input[type="radio"]:checked + .lang_switcher_item {
+  background-color: $grey-bg-alt;
+  color: $grey-text;
+  border-radius: 8px;
+}
+.header_lang input[type="radio"]:hover + .lang_switcher_item {
+  background-color: $accent;
+  border-radius: 8px;
+  color: #fff;
 }
