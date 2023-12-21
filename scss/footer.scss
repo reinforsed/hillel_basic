@@ -1,9 +1,11 @@
 .footer {
-  padding: 30px 60px;
+  background-color: $grey-bg;
+  padding: 30px 0px;
   &_wrapper {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+
     &_map {
       grid-row-start: 1;
       grid-row-end: 2;

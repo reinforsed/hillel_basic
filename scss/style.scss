@@ -9,8 +9,10 @@ $grey-bg: #f5f5fa;
 $grey-bg-alt: #ededf7;
 $grey-text: #b3b3ba;
 $grey-separator: #e6e6f0;
+
 @import "header.scss";
 @import "footer.scss";
+@import "team.scss";
 
 h1,
 h2,
@@ -74,3 +76,8 @@ a:hover {
   width: 6px;
   height: 6px;
 }
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+@import "media.scss";
