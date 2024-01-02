@@ -75,6 +75,9 @@
   }
 }
 @media (max-width: 375px) {
+  .header .container {
+    margin: 0px;
+  }
   .dot {
     display: none;
   }
@@ -92,6 +95,21 @@
   .logo {
     max-height: 32px;
     margin-bottom: 3.4px;
+    width: max-content;
+    display: grid;
+  }
+  .footer_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    &:hover {
+      background-color: $grey-bg;
+      border-radius: 8px;
+    }
   }
   .company_name {
     max-height: 4px;
@@ -104,9 +122,7 @@
     font-size: 20px;
     line-height: 20px;
   }
-  .container {
-    max-width: 345px;
-  }
+
   .team_title {
     max-width: 315px;
     font-size: 30px;
@@ -119,16 +135,65 @@
     grid-template-rows: 1fr 1fr;
     gap: 15px;
   }
+  .header_wrapper .header_str {
+    display: none;
+  }
   .header_wrapper_nav {
     display: none;
   }
   .header_wrapper_contacts {
     justify-content: space-between;
+    padding: 10px 15px;
+    background-color: $grey-bg;
   }
   .facebook_header {
     display: none;
   }
   .header_str {
     display: none;
+  }
+
+  .footer {
+    padding: 30px 30px;
+  }
+  .footer_wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px;
+    height: max-content;
+  }
+  .footer_wrapper_map {
+    display: grid;
+    gap: 10px;
+    height: max-content;
+  }
+  .header_str {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: block;
+    margin: 0 auto;
+  }
+  .on_map {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+  }
+  .footer_wrapper_tel {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .footer_wrapper_tel .facebook_header {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer_wrapper_tel .header_tel {
+    text-align: center;
+  }
+  .footer_wrapper_tel .email {
+    text-align: center;
+  }
+  .rights {
+    margin-top: 30px;
   }
 }
